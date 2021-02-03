@@ -1,0 +1,73 @@
+.banner {
+    background-image: url(image/764177.png);
+    padding: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+.container p {
+    color: beige;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: grey;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.paragraph p {
+    color: #393e46;
+    font-size: 15px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container p {
+    font-family: 'Sriracha', cursive;
+}
+
+a {
+    color: #ec4646;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+a:hover {
+    color: #393e46;
+}
+
+.paragraph {
+  width: 500px;  
+  margin: 50px auto;
+} 
+
+img {
+    text-align: center;
+    height: 500px;
+    width: 950px;
+    margin: 10px;
+}
+
+
+@media(max-width: 992px) {
+    .container {
+      width: 700px;
+    }
+  }
